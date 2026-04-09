@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-09T06:21:15.370709",
+  "lastUpdated": "2026-04-09T06:22:20.988476",
   "round": 1,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -47,9 +47,37 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Johnny Keefer",
-      "pos": "T4",
+      "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
+      "pos": "T1",
       "sortOrder": 4,
+      "scoreToPar": 0,
+      "scoreDisplay": "E",
+      "r1": null,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Rasmus Neergaard-Petersen",
+      "pos": "T1",
+      "sortOrder": 5,
+      "scoreToPar": 0,
+      "scoreDisplay": "E",
+      "r1": null,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Johnny Keefer",
+      "pos": "T6",
+      "sortOrder": 6,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 1,
@@ -62,8 +90,8 @@
     },
     {
       "name": "Carlos Ortiz",
-      "pos": "T4",
-      "sortOrder": 5,
+      "pos": "T6",
+      "sortOrder": 7,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 1,
@@ -75,46 +103,18 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
-      "pos": "-",
-      "sortOrder": 6,
-      "scoreToPar": 0,
-      "scoreDisplay": "-",
-      "r1": null,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
-    },
-    {
-      "name": "Rasmus Neergaard-Petersen",
-      "pos": "-",
-      "sortOrder": 7,
-      "scoreToPar": 0,
-      "scoreDisplay": "-",
-      "r1": null,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
-    },
-    {
       "name": "Aldrich Potgieter",
-      "pos": "-",
+      "pos": "8",
       "sortOrder": 8,
       "scoreToPar": 0,
-      "scoreDisplay": "-",
-      "r1": null,
+      "scoreDisplay": "E",
+      "r1": 2,
       "r2": null,
       "r3": null,
       "r4": null,
-      "totalStrokes": null,
+      "totalStrokes": 2,
       "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
       "name": "\u00c1ngel Cabrera",
