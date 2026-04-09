@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-09T13:52:22.438265",
+  "lastUpdated": "2026-04-09T13:54:09.372055",
   "round": 1,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -145,7 +145,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Justin Thomas",
+      "name": "Jordan Spieth",
       "pos": "T8",
       "sortOrder": 11,
       "scoreToPar": -74,
@@ -159,7 +159,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Gary Woodland",
+      "name": "Justin Thomas",
       "pos": "T8",
       "sortOrder": 12,
       "scoreToPar": -74,
@@ -173,22 +173,22 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Haotong Li",
-      "pos": "T13",
+      "name": "Gary Woodland",
+      "pos": "T8",
       "sortOrder": 13,
-      "scoreToPar": -73,
-      "scoreDisplay": "-1",
-      "r1": -1,
+      "scoreToPar": -74,
+      "scoreDisplay": "E",
+      "r1": -2,
       "r2": null,
       "r3": null,
       "r4": null,
-      "totalStrokes": -1,
+      "totalStrokes": -2,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Nick Taylor",
-      "pos": "T13",
+      "name": "Haotong Li",
+      "pos": "T14",
       "sortOrder": 14,
       "scoreToPar": -73,
       "scoreDisplay": "-1",
@@ -201,8 +201,8 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Tommy Fleetwood",
-      "pos": "T13",
+      "name": "Nick Taylor",
+      "pos": "T14",
       "sortOrder": 15,
       "scoreToPar": -73,
       "scoreDisplay": "-1",
@@ -215,22 +215,22 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Brian Campbell",
-      "pos": "T13",
+      "name": "Tommy Fleetwood",
+      "pos": "T14",
       "sortOrder": 16,
       "scoreToPar": -73,
-      "scoreDisplay": "E",
+      "scoreDisplay": "-1",
       "r1": -1,
       "r2": null,
       "r3": null,
       "r4": null,
       "totalStrokes": -1,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Wyndham Clark",
-      "pos": "T13",
+      "name": "Brian Campbell",
+      "pos": "T14",
       "sortOrder": 17,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -243,8 +243,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Danny Willett",
-      "pos": "T13",
+      "name": "Wyndham Clark",
+      "pos": "T14",
       "sortOrder": 18,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -257,8 +257,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Fred Couples",
-      "pos": "T13",
+      "name": "Danny Willett",
+      "pos": "T14",
       "sortOrder": 19,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -271,8 +271,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Ludvig \u00c5berg",
-      "pos": "T13",
+      "name": "Fred Couples",
+      "pos": "T14",
       "sortOrder": 20,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -285,8 +285,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Chris Gotterup",
-      "pos": "T13",
+      "name": "Ludvig \u00c5berg",
+      "pos": "T14",
       "sortOrder": 21,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -299,8 +299,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Jordan Spieth",
-      "pos": "T13",
+      "name": "Chris Gotterup",
+      "pos": "T14",
       "sortOrder": 22,
       "scoreToPar": -73,
       "scoreDisplay": "E",
@@ -314,7 +314,7 @@
     },
     {
       "name": "Sepp Straka",
-      "pos": "T13",
+      "pos": "T14",
       "sortOrder": 23,
       "scoreToPar": -73,
       "scoreDisplay": "E",
