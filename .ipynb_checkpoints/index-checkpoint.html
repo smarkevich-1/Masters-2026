@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masters Pool 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-deep: #1a3a2a;
+    --green-mid: #2d5a3d;
+    --green-light: #4a8c5c;
+    --gold: #c9a84c;
+    --gold-light: #e8c96a;
+    --cream: #f5f0e8;
+    --cream-dark: #ede5d4;
+    --white: #fdfaf5;
+    --text-dark: #1a1a1a;
+    --text-mid: #4a4a4a;
+    --text-light: #888;
+    --shadow: 0 4px 24px rgba(0,0,0,0.13);
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--green-deep);
+    font-family: 'Source Sans 3', sans-serif;
+    color: var(--text-dark);
+    min-height: 100vh;
+  }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(74,140,92,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(201,168,76,0.08) 0%, transparent 50%);
+    pointer-events: none; z-index: 0;
+  }
+  .app-wrap {
+    position: relative; z-index: 1;
+    max-width: 1100px; margin: 0 auto; padding: 0 16px 60px;
+  }
+  header {
+    text-align: center; padding: 48px 0 32px;
+    border-bottom: 1px solid rgba(201,168,76,0.3); margin-bottom: 32px;
+  }
+  .header-eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: 4px;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 10px;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.2rem, 6vw, 3.8rem);
+    font-weight: 900; color: var(--cream); line-height: 1.05;
+  }
+  header h1 span { color: var(--gold); }
+  .header-sub { font-size: 13px; color: rgba(245,240,232,0.5); margin-top: 10px; letter-spacing: 1px; }
+  .last-updated {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 16px;
+    background: rgba(201,168,76,0.12); border: 1px solid rgba(201,168,76,0.25);
+    color: var(--gold-light); font-size: 12px; padding: 5px 14px;
+    border-radius: 20px; letter-spacing: 0.5px;
+  }
+  .pulse { width: 7px; height: 7px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.8)} }
+  .loading-bar {
+    background: rgba(201,168,76,0.12); border: 1px solid rgba(201,168,76,0.2);
+    border-radius: 12px; padding: 20px 24px; margin-bottom: 24px;
+    color: var(--gold-light); font-size: 14px; text-align: center;
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .error-bar {
+    background: rgba(192,57,43,0.12); border: 1px solid rgba(192,57,43,0.3);
+    border-radius: 12px; padding: 16px 20px; margin-bottom: 24px;
+    color: #f1948a; font-size: 13px; line-height: 1.7;
+  }
+  .error-bar strong { display: block; margin-bottom: 4px; font-size: 14px; }
+  .error-bar code { background: rgba(255,255,255,0.1); padding: 1px 6px; border-radius: 4px; font-size: 12px; }
+  .status-bar { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+  .status-pill {
+    display: flex; align-items: center; gap: 7px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+    color: rgba(245,240,232,0.7); font-size: 12px; padding: 6px 14px; border-radius: 20px;
+  }
+  .status-pill strong { color: var(--gold); }
+  .tabs {
+    display: flex; gap: 4px; margin-bottom: 24px;
+    background: rgba(0,0,0,0.2); padding: 4px; border-radius: 12px; flex-wrap: wrap;
+  }
+  .tab {
+    padding: 9px 18px; border-radius: 9px; cursor: pointer;
+    font-size: 13px; font-weight: 600; color: rgba(245,240,232,0.6);
+    transition: all 0.15s; border: none; background: transparent;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  .tab:hover { color: var(--cream); }
+  .tab.active { background: var(--white); color: var(--green-deep); box-shadow: var(--shadow-sm); }
+  .card { background: var(--white); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; margin-bottom: 24px; animation: fadeUp 0.3s ease both; }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+  .card-header { background: var(--green-deep); padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .card-header h2 { font-family: 'Playfair Display', serif; color: var(--cream); font-size: 1.2rem; font-weight: 700; }
+  .round-badge { background: var(--gold); color: var(--green-deep); font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: 1px; text-transform: uppercase; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead th { background: var(--cream-dark); padding: 11px 14px; text-align: left; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--text-mid); white-space: nowrap; }
+  thead th.num { text-align: center; }
+  tbody tr { border-bottom: 1px solid rgba(0,0,0,0.05); transition: background 0.1s; }
+  tbody tr:hover { background: rgba(74,140,92,0.04); }
+  tbody tr:last-child { border-bottom: none; }
+  td { padding: 12px 14px; vertical-align: middle; }
+  td.num { text-align: center; }
+  .pos-cell { font-weight: 700; color: var(--green-mid); width: 50px; }
+  .pos-cell.first { color: var(--gold); }
+  .player-name { font-weight: 600; color: var(--text-dark); }
+  .team-name-cell { font-weight: 700; font-size: 1rem; color: var(--green-deep); }
+  .score-cell { font-weight: 700; text-align: center; font-size: 1rem; }
+  .score-under { color: #c0392b; }
+  .score-over { color: #2980b9; }
+  .score-even { color: var(--text-mid); }
+  .round-score { text-align: center; color: var(--text-mid); font-size: 13px; }
+  .missed-cut-row { background: #fff5f5 !important; }
+  .cut-badge { display: inline-block; font-size: 10px; font-weight: 700; background: #e74c3c; color: white; padding: 2px 7px; border-radius: 4px; margin-left: 7px; vertical-align: middle; }
+  .doubled-badge { display: inline-block; font-size: 10px; font-weight: 700; background: #e67e22; color: white; padding: 2px 7px; border-radius: 4px; margin-left: 5px; vertical-align: middle; }
+  .dropped-row { opacity: 0.38; }
+  .dropped-label { font-size: 11px; color: #999; font-style: italic; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; }
+  .drop-btn { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; font-size: 11px; font-weight: 700; border-radius: 5px; cursor: pointer; border: 1.5px solid #c0392b; background: transparent; color: #c0392b; font-family: 'Source Sans 3', sans-serif; transition: all 0.12s; white-space: nowrap; }
+  .drop-btn:hover { background: #c0392b; color: white; }
+  .drop-btn.dropped { border-color: var(--green-mid); color: var(--green-mid); }
+  .drop-btn.dropped:hover { background: var(--green-mid); color: white; }
+  .top3-row-1 td { background: rgba(201,168,76,0.08); }
+  .top3-row-2 td { background: rgba(192,192,192,0.06); }
+  .top3-row-3 td { background: rgba(205,127,50,0.05); }
+  .teams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+  .team-card { background: var(--white); border-radius: 14px; box-shadow: var(--shadow-sm); overflow: hidden; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; border: 2px solid transparent; }
+  .team-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--gold); }
+  .team-card-header { background: var(--green-mid); padding: 14px 18px; display: flex; justify-content: space-between; align-items: center; }
+  .team-card-name { font-family: 'Playfair Display', serif; color: var(--cream); font-size: 1rem; font-weight: 700; }
+  .team-card-score { font-size: 1.3rem; font-weight: 900; font-family: 'Playfair Display', serif; }
+  .team-card-pos { background: var(--gold); color: var(--green-deep); font-size: 11px; font-weight: 800; padding: 2px 9px; border-radius: 20px; margin-right: 8px; }
+  .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; display: flex; align-items: flex-start; justify-content: center; padding: 40px 16px; overflow-y: auto; backdrop-filter: blur(4px); }
+  .modal-overlay.hidden { display: none; }
+  .modal { background: var(--white); border-radius: 18px; width: 100%; max-width: 820px; box-shadow: 0 20px 60px rgba(0,0,0,0.4); overflow: hidden; animation: modalIn 0.2s ease; }
+  @keyframes modalIn { from{opacity:0;transform:scale(0.96) translateY(10px)} to{opacity:1;transform:scale(1) translateY(0)} }
+  .modal-header { background: var(--green-deep); padding: 22px 28px; display: flex; justify-content: space-between; align-items: center; }
+  .modal-header h2 { font-family: 'Playfair Display', serif; color: var(--cream); font-size: 1.5rem; }
+  .modal-close { background: rgba(255,255,255,0.1); border: none; color: var(--cream); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background 0.15s; }
+  .modal-close:hover { background: rgba(255,255,255,0.2); }
+  .modal-body { padding: 24px 28px; }
+  .modal-score-summary { display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+  .summary-stat { background: var(--cream); border-radius: 10px; padding: 12px 20px; text-align: center; flex: 1; min-width: 90px; }
+  .summary-stat .label { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-light); font-weight: 600; margin-bottom: 4px; }
+  .summary-stat .value { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: var(--green-deep); }
+  .cut-info-bar { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 10px 16px; font-size: 13px; color: #795548; margin-bottom: 16px; }
+  @media (max-width: 600px) { .modal-body{padding:16px} .modal-header{padding:16px} }
+</style>
+</head>
+<body>
+<div class="app-wrap">
+
+  <header>
+    <div class="header-eyebrow">Augusta National · April 2026</div>
+    <h1>Masters Pool <span>'26</span></h1>
+    <div class="header-sub">Augusta National Golf Club · Par 72</div>
+    <div class="last-updated">
+      <span class="pulse"></span>
+      <span id="lastUpdatedText">Loading scores...</span>
+    </div>
+  </header>
+
+  <div id="loadingBar" class="loading-bar">⛳ Fetching live scores...</div>
+
+  <div id="errorBar" class="error-bar" style="display:none">
+    <strong>⚠️ Live scores not available yet</strong>
+    Run <code>masters_fetch.py</code> in Jupyter and push <code>scores.json</code> to GitHub — the app will update automatically once the file is live.
+  </div>
+
+  <div id="mainContent" style="display:none">
+    <div class="status-bar">
+      <div class="status-pill">👥 Teams: <strong id="statTeams">0</strong></div>
+      <div class="status-pill">🏌️ Players: <strong id="statPlayers">0</strong></div>
+      <div class="status-pill">🎯 Round: <strong id="statRound">--</strong></div>
+      <div class="status-pill" id="cutPill" style="display:none">✂️ Post-Cut: <strong>Mark drops per team</strong></div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('leaderboard',this)">🏆 Leaderboard</button>
+      <button class="tab" onclick="showTab('teams',this)">👥 All Teams</button>
+      <button class="tab" onclick="showTab('field',this)">📋 Masters Field</button>
+    </div>
+
+    <div id="tab-leaderboard">
+      <div class="card">
+        <div class="card-header">
+          <h2>Pool Leaderboard</h2>
+          <span class="round-badge" id="roundBadge">Round 1</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Pos</th><th>Team</th><th class="num">Total Score</th><th class="num">Active Players</th></tr></thead>
+            <tbody id="leaderboardBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="tab-teams" style="display:none">
+      <div class="teams-grid" id="teamsGrid"></div>
+    </div>
+
+    <div id="tab-field" style="display:none">
+      <div class="card">
+        <div class="card-header">
+          <h2>Masters Field — Live Scores</h2>
+          <span class="round-badge" id="fieldRoundBadge">Round 1</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Pos</th><th>Player</th><th class="num">Score</th><th class="num">R1</th><th class="num">R2</th><th class="num">R3</th><th class="num">R4</th><th class="num">Total</th></tr></thead>
+            <tbody id="fieldBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay hidden" id="teamModal" onclick="handleOverlayClick(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modalTeamName"></h2>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-score-summary" id="modalSummary"></div>
+      <div class="cut-info-bar" id="cutInfoBar" style="display:none">
+        ✂️ <strong>Post-Cut:</strong> Mark 2 players to drop. Undropped missed-cut players have their score <strong>doubled</strong>.
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Player</th><th class="num">Pos</th><th class="num">Score</th><th class="num">R1</th><th class="num">R2</th><th class="num">R3</th><th class="num">R4</th><th class="num">Counts As</th><th></th></tr></thead>
+          <tbody id="modalBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ════════════════════════════════════════════════════════════
+//  2026 DRAFT — update each year with new picks
+// ════════════════════════════════════════════════════════════
+const DRAFT = {
+  "Dale":    ["Angel Cabrera","Rasmus Højgaard","Nicolai Højgaard","Sergio Garcia","J.J. Spaun","Scottie Scheffler"],
+  "Hall":    ["Jackson Herrington","Matt McCarty","Jason Day","Adam Scott","Harry Hall","Ludvig Aberg"],
+  "Wilkins": ["Bubba Watson","Nick Taylor","Brian Harman","Tyrrell Hatton","Jon Rahm","Justin Thomas"],
+  "Wiggy":   ["Nico Echavarria","Shane Lowry","Rory McIlroy","Alex Noren","Viktor Hovland","Aaron Rai"],
+  "Juhli":   ["Carlos Ortiz","Dustin Johnson","Bryson DeChambeau","Russell Henley","Patrick Cantlay","Sam Stevens"],
+  "Greger":  ["Johnny Keefer","Keegan Bradley","Matt Fitzpatrick","Daniel Berger","Chris Gotterup","Gary Woodland"],
+  "Stu":     ["Max Homa","Charl Schwartzel","Jake Knapp","Xander Schauffele","Tom McKibbin","Si Woo Kim"],
+  "Brett":   ["Casey Jarvis","Sam Burns","Ryan Gerard","Cameron Young","Jordan Spieth","Sepp Straka"],
+  "Ashley":  ["Kurt Kitayama","Hideki Matsuyama","Sungjae Im","Michael Kim","Ethan Fang","Min Woo Lee"],
+  "CA":      ["Aldrich Potgieter","Max Greyserman","Tommy Fleetwood","Wyndham Clark","Brooks Koepka","Marco Penge"],
+  "DP":      ["Haotong Li","Rasmus Neergaard-Petersen","Cameron Smith","Corey Conners","Justin Rose","Harris English"],
+  "Jimmy":   ["Sami Valimaki","Ryan Fox","Patrick Reed","Akshay Bhatia","Zach Johnson","Maverick McNealy"],
+  "Miranda": ["Collin Morikawa","Mason Howell","Andrew Novak","Jacob Bridgeman","Ben Griffin","Robert MacIntyre"],
+};
+
+// ── STATE ─────────────────────────────────────────────────────
+let scores = {};
+let currentRound = 1;
+let cutHappened = false;
+const DROPPED = {};
+for (const t of Object.keys(DRAFT)) DROPPED[t] = new Set();
+
+// ── LOAD SCORES.JSON ──────────────────────────────────────────
+async function loadScores() {
+  try {
+    const resp = await fetch('scores.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('Not found');
+    const data = await resp.json();
+
+    scores = {};
+    for (const p of data.players) {
+      scores[p.name] = p;
+      scores[normName(p.name)] = p;
+    }
+
+    currentRound = data.round || 1;
+    cutHappened = currentRound >= 3;
+
+    const ts = new Date(data.lastUpdated);
+    document.getElementById('lastUpdatedText').textContent =
+      'Updated ' + ts.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+
+    const isFinal = data.status === 'closed';
+    const roundLabel = isFinal ? 'Final' : `Round ${currentRound}`;
+    document.getElementById('roundBadge').textContent = roundLabel;
+    document.getElementById('fieldRoundBadge').textContent = roundLabel;
+    document.getElementById('statRound').textContent = roundLabel;
+
+    const allPlayers = [...new Set(Object.values(DRAFT).flat())];
+    document.getElementById('statTeams').textContent = Object.keys(DRAFT).length;
+    document.getElementById('statPlayers').textContent = allPlayers.length;
+    if (cutHappened) document.getElementById('cutPill').style.display = 'flex';
+
+    document.getElementById('loadingBar').style.display = 'none';
+    document.getElementById('errorBar').style.display = 'none';
+    document.getElementById('mainContent').style.display = 'block';
+
+    render();
+  } catch(e) {
+    document.getElementById('loadingBar').style.display = 'none';
+    document.getElementById('errorBar').style.display = 'block';
+  }
+}
+
+// ── HELPERS ───────────────────────────────────────────────────
+function normName(n) {
+  return n.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents: á→a, ø→o etc
+    .replace(/[^a-z\s]/g,'').replace(/\s+/g,' ').trim();
+}
+function lookupPlayer(name) {
+  if (scores[name]) return scores[name];
+  const norm = normName(name);
+  if (scores[norm]) return scores[norm];
+  // match on last name
+  const last = norm.split(' ').pop();
+  for (const k of Object.keys(scores)) {
+    if (normName(k).split(' ').pop() === last) return scores[k];
+  }
+  return null;
+}
+function fmtScore(v) {
+  if (v === null || v === undefined) return '--';
+  if (v === 0) return 'E';
+  return v > 0 ? '+' + v : String(v);
+}
+function sCls(v) { return v == null ? '' : v < 0 ? 'score-under' : v > 0 ? 'score-over' : 'score-even'; }
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function escJs(s) { return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function getEffective(team, player) {
+  const data = lookupPlayer(player);
+  const dropped = DROPPED[team]?.has(player) || false;
+  let score = data ? (data.scoreToPar || 0) : 0;
+  let doubled = false;
+  if (!dropped && data?.missedCut && cutHappened) { score *= 2; doubled = true; }
+  return { data, dropped, doubled, score };
+}
+
+function teamTotal(team) {
+  let tot = 0, active = 0;
+  for (const p of DRAFT[team]) {
+    const { dropped, score, data } = getEffective(team, p);
+    if (!dropped && data) { tot += score; active++; }
+  }
+  return { tot, active };
+}
+
+// ── RENDER ────────────────────────────────────────────────────
+function render() { renderLeaderboard(); renderTeamsGrid(); renderField(); }
+
+function renderLeaderboard() {
+  const ranked = Object.keys(DRAFT)
+    .map(t => { const {tot,active} = teamTotal(t); return {name:t,tot,active}; })
+    .sort((a,b) => a.tot - b.tot);
+
+  let html = '';
+  ranked.forEach((t,i) => {
+    const pos = i+1;
+    const medal = pos===1?'🥇':pos===2?'🥈':pos===3?'🥉':pos;
+    const rc = pos===1?'top3-row-1':pos===2?'top3-row-2':pos===3?'top3-row-3':'';
+    html += `<tr class="${rc}" onclick="openModal('${escJs(t.name)}')" style="cursor:pointer">
+      <td class="pos-cell ${pos===1?'first':''}">${medal}</td>
+      <td class="team-name-cell">${esc(t.name)}</td>
+      <td class="score-cell num ${sCls(t.tot)}">${fmtScore(t.tot)}</td>
+      <td class="num" style="color:var(--text-light);font-size:13px">${t.active} active</td>
+    </tr>`;
+  });
+  document.getElementById('leaderboardBody').innerHTML = html;
+}
+
+function renderTeamsGrid() {
+  const ranked = Object.keys(DRAFT)
+    .map(t => { const {tot} = teamTotal(t); return {name:t,tot}; })
+    .sort((a,b) => a.tot - b.tot);
+
+  let html = '';
+  ranked.forEach((t,i) => {
+    const preview = DRAFT[t.name].map(p => {
+      const {data,dropped} = getEffective(t.name,p);
+      return `<span style="color:${dropped?'#ccc':'var(--text-mid)'};font-size:12px">${esc(p)} <strong>${data?fmtScore(data.scoreToPar):'--'}</strong></span>`;
+    }).join(' &nbsp;·&nbsp; ');
+    html += `<div class="team-card" onclick="openModal('${escJs(t.name)}')">
+      <div class="team-card-header">
+        <span class="team-card-pos">#${i+1}</span>
+        <span class="team-card-name">${esc(t.name)}</span>
+        <span class="team-card-score ${sCls(t.tot)}">${fmtScore(t.tot)}</span>
+      </div>
+      <div style="padding:12px 16px;line-height:2">${preview}</div>
+    </div>`;
+  });
+  document.getElementById('teamsGrid').innerHTML = html;
+}
+
+function renderField() {
+  const seen = new Set();
+  const players = Object.values(scores)
+    .filter(p => { if(!p.name||seen.has(p.name)) return false; seen.add(p.name); return true; })
+    .sort((a,b) => (a.sortOrder||999)-(b.sortOrder||999));
+
+  if (!players.length) {
+    document.getElementById('fieldBody').innerHTML =
+      '<tr><td colspan="8" style="text-align:center;padding:30px;color:var(--text-light)">No field data yet</td></tr>';
+    return;
+  }
+  let html = '';
+  for (const p of players) {
+    const cutHtml = p.missedCut ? '<span class="cut-badge">MC</span>' : '';
+    html += `<tr class="${p.missedCut?'missed-cut-row':''}">
+      <td class="pos-cell">${esc(p.pos||'--')}</td>
+      <td class="player-name">${esc(p.name)}${cutHtml}</td>
+      <td class="score-cell num ${sCls(p.scoreToPar)}">${fmtScore(p.scoreToPar)}</td>
+      <td class="round-score">${p.r1??'--'}</td>
+      <td class="round-score">${p.r2??'--'}</td>
+      <td class="round-score">${p.r3??'--'}</td>
+      <td class="round-score">${p.r4??'--'}</td>
+      <td class="round-score">${p.totalStrokes??'--'}</td>
+    </tr>`;
+  }
+  document.getElementById('fieldBody').innerHTML = html;
+}
+
+// ── MODAL ─────────────────────────────────────────────────────
+function openModal(team) {
+  window._modalTeam = team;
+  document.getElementById('modalTeamName').textContent = team;
+  document.getElementById('teamModal').classList.remove('hidden');
+  document.getElementById('cutInfoBar').style.display = cutHappened ? 'block' : 'none';
+
+  const {tot, active} = teamTotal(team);
+  document.getElementById('modalSummary').innerHTML = `
+    <div class="summary-stat"><div class="label">Team Score</div><div class="value ${sCls(tot)}">${fmtScore(tot)}</div></div>
+    <div class="summary-stat"><div class="label">Active</div><div class="value">${active}</div></div>
+    <div class="summary-stat"><div class="label">Dropped</div><div class="value">${DROPPED[team].size}</div></div>
+    <div class="summary-stat"><div class="label">Drafted</div><div class="value">${DRAFT[team].length}</div></div>`;
+
+  let html = '';
+  for (const p of DRAFT[team]) {
+    const {data,dropped,doubled,score} = getEffective(team,p);
+    const cutBadge = (!dropped && data?.missedCut) ? '<span class="cut-badge">MC</span>' : '';
+    const dblBadge = doubled ? '<span class="doubled-badge">×2</span>' : '';
+    const rowCls = dropped ? 'dropped-row' : (data?.missedCut ? 'missed-cut-row' : '');
+    const countsAs = dropped
+      ? '<span class="dropped-label">Dropped</span>'
+      : doubled
+        ? `<span class="${sCls(score)}" style="font-weight:700">${fmtScore(score)} <small style="color:#aaa">(was ${fmtScore(data?.scoreToPar)})</small></span>`
+        : `<span class="${sCls(score)}" style="font-weight:700">${data?fmtScore(score):'--'}</span>`;
+    const dropBtn = cutHappened
+      ? `<button class="drop-btn ${dropped?'dropped':''}" onclick="toggleDrop('${escJs(team)}','${escJs(p)}')">${dropped?'↩ Restore':'✂ Drop'}</button>`
+      : '';
+    html += `<tr class="${rowCls}">
+      <td class="player-name">${esc(p)}${cutBadge}${dblBadge}</td>
+      <td class="num" style="color:var(--text-light)">${data?.pos??'--'}</td>
+      <td class="num ${sCls(data?.scoreToPar)}" style="font-weight:600">${data?fmtScore(data.scoreToPar):'--'}</td>
+      <td class="round-score">${data?.r1??'--'}</td>
+      <td class="round-score">${data?.r2??'--'}</td>
+      <td class="round-score">${data?.r3??'--'}</td>
+      <td class="round-score">${data?.r4??'--'}</td>
+      <td class="num">${countsAs}</td>
+      <td>${dropBtn}</td>
+    </tr>`;
+  }
+  document.getElementById('modalBody').innerHTML = html;
+}
+
+function toggleDrop(team, player) {
+  if (DROPPED[team].has(player)) DROPPED[team].delete(player);
+  else DROPPED[team].add(player);
+  openModal(team);
+  renderLeaderboard();
+  renderTeamsGrid();
+}
+
+function closeModal() { document.getElementById('teamModal').classList.add('hidden'); }
+function handleOverlayClick(e) { if (e.target===document.getElementById('teamModal')) closeModal(); }
+
+function showTab(name, btn) {
+  document.querySelectorAll('[id^="tab-"]').forEach(el => el.style.display='none');
+  document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-'+name).style.display = 'block';
+  btn.classList.add('active');
+}
+
+// Auto-refresh every 3 minutes
+setInterval(loadScores, 3 * 60 * 1000);
+
+// Init
+loadScores();
+</script>
+</body>
+</html>
