@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-09T13:20:54.387173",
+  "lastUpdated": "2026-04-09T13:26:38.476343",
   "round": 1,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -677,7 +677,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Ben Griffin",
+      "name": "Robert MacIntyre",
       "pos": "T38",
       "sortOrder": 49,
       "scoreToPar": 0,
@@ -691,7 +691,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Robert MacIntyre",
+      "name": "Harris English",
       "pos": "T38",
       "sortOrder": 50,
       "scoreToPar": 0,
@@ -705,7 +705,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Harris English",
+      "name": "Si Woo Kim",
       "pos": "T38",
       "sortOrder": 51,
       "scoreToPar": 0,
@@ -719,23 +719,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Si Woo Kim",
-      "pos": "T38",
-      "sortOrder": 52,
-      "scoreToPar": 0,
-      "scoreDisplay": "E",
-      "r1": 1,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": 1,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
-      "pos": "T53",
-      "sortOrder": 53,
+      "pos": "T52",
+      "sortOrder": 52,
       "scoreToPar": 2,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -748,8 +734,8 @@
     },
     {
       "name": "Cameron Smith",
-      "pos": "T53",
-      "sortOrder": 54,
+      "pos": "T52",
+      "sortOrder": 53,
       "scoreToPar": 2,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -762,8 +748,8 @@
     },
     {
       "name": "Collin Morikawa",
-      "pos": "T53",
-      "sortOrder": 55,
+      "pos": "T52",
+      "sortOrder": 54,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 2,
@@ -776,8 +762,8 @@
     },
     {
       "name": "Michael Kim",
-      "pos": "T53",
-      "sortOrder": 56,
+      "pos": "T52",
+      "sortOrder": 55,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 2,
@@ -790,7 +776,21 @@
     },
     {
       "name": "Adam Scott",
-      "pos": "T53",
+      "pos": "T52",
+      "sortOrder": 56,
+      "scoreToPar": 0,
+      "scoreDisplay": "E",
+      "r1": 2,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": 2,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Ben Griffin",
+      "pos": "T52",
       "sortOrder": 57,
       "scoreToPar": 0,
       "scoreDisplay": "E",
@@ -971,7 +971,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Mateo Pulcini",
+      "name": "Brian Harman",
       "pos": "T65",
       "sortOrder": 70,
       "scoreToPar": 0,
@@ -985,7 +985,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Brian Harman",
+      "name": "Min Woo Lee",
       "pos": "T65",
       "sortOrder": 71,
       "scoreToPar": 0,
@@ -999,7 +999,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Min Woo Lee",
+      "name": "Marco Penge",
       "pos": "T65",
       "sortOrder": 72,
       "scoreToPar": 0,
@@ -1013,23 +1013,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Marco Penge",
-      "pos": "T65",
-      "sortOrder": 73,
-      "scoreToPar": 0,
-      "scoreDisplay": "E",
-      "r1": 4,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": 4,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Rasmus Neergaard-Petersen",
-      "pos": "T74",
-      "sortOrder": 74,
+      "pos": "T73",
+      "sortOrder": 73,
       "scoreToPar": 5,
       "scoreDisplay": "+5",
       "r1": 5,
@@ -1042,8 +1028,8 @@
     },
     {
       "name": "Ryan Fox",
-      "pos": "T74",
-      "sortOrder": 75,
+      "pos": "T73",
+      "sortOrder": 74,
       "scoreToPar": 5,
       "scoreDisplay": "+5",
       "r1": 5,
@@ -1056,8 +1042,8 @@
     },
     {
       "name": "Casey Jarvis",
-      "pos": "T74",
-      "sortOrder": 76,
+      "pos": "T73",
+      "sortOrder": 75,
       "scoreToPar": 5,
       "scoreDisplay": "+5",
       "r1": 5,
@@ -1070,8 +1056,8 @@
     },
     {
       "name": "Mason Howell",
-      "pos": "T74",
-      "sortOrder": 77,
+      "pos": "T73",
+      "sortOrder": 76,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 5,
@@ -1084,8 +1070,8 @@
     },
     {
       "name": "Alex Noren",
-      "pos": "T74",
-      "sortOrder": 78,
+      "pos": "T73",
+      "sortOrder": 77,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 5,
@@ -1098,8 +1084,8 @@
     },
     {
       "name": "Mike Weir",
-      "pos": "T74",
-      "sortOrder": 79,
+      "pos": "T73",
+      "sortOrder": 78,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 5,
@@ -1112,8 +1098,8 @@
     },
     {
       "name": "Fifa Laopakdee",
-      "pos": "T74",
-      "sortOrder": 80,
+      "pos": "T73",
+      "sortOrder": 79,
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "r1": 5,
@@ -1126,8 +1112,8 @@
     },
     {
       "name": "Rasmus H\u00f8jgaard",
-      "pos": "81",
-      "sortOrder": 81,
+      "pos": "T80",
+      "sortOrder": 80,
       "scoreToPar": 6,
       "scoreDisplay": "+6",
       "r1": 6,
@@ -1137,6 +1123,20 @@
       "totalStrokes": 6,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Mateo Pulcini",
+      "pos": "T80",
+      "sortOrder": 81,
+      "scoreToPar": 0,
+      "scoreDisplay": "E",
+      "r1": 6,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": 6,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
       "name": "\u00c1ngel Cabrera",
