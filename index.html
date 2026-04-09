@@ -249,23 +249,22 @@
 
 <script>
 // ════════════════════════════════════════════════════════════
-//  DRAFT DATA — Update this section each year with new picks
-//  Format: "TeamName": ["Player 1", "Player 2", ...]
+//  2026 DRAFT — update each year with new picks
 // ════════════════════════════════════════════════════════════
 const DRAFT = {
-  "Jimmy":      ["Scottie Scheffler","Patrick Reed","Russell Henley","Byeong-Hun An","Sepp Straka","Stewart Hagestad"],
-  "Dale":       ["Xander Schauffele","Brian Harman","Denny McCarthy","Nicolai Hojgaard","Emiliano Grillo","Adam Schenk"],
-  "Wilkins":    ["Jon Rahm","Collin Morikawa","Si Woo Kim","Stephan Jaeger","Taylor Moore","Camilo Villegas"],
-  "DP":         ["Jordan Spieth","Shane Lowry","Jason Day","Adam Hadwin","Harris English","Luke List"],
-  "Wiggy":      ["Rory McIlroy","Tony Finau","Tommy Fleetwood","Min Woo Lee","Erik van Rooyen","Ryo Hisatsune"],
-  "Greger":     ["Hideki Matsuyama","Sahith Theegala","Corey Conners","Akshay Bhatia","Ryan Fox","Nick Dunlap"],
-  "Hall":       ["Brooks Koepka","Joaquin Niemann","Sam Burns","Chris Kirk","Austin Eckroat","Christo Lamprecht"],
-  "Juhli":      ["Will Zalatoris","Patrick Cantlay","Adam Scott","Justin Rose","Jake Knapp","Bubba Watson"],
-  "Christiane": ["Matt Fitzpatrick","Cameron Young","Nick Taylor","Matthieu Pavon","Thorbjorn Olesen","Gary Woodland"],
-  "Ashley":     ["Dustin Johnson","Bryson DeChambeau","Tyrrell Hatton","Sergio Garcia","Adrian Meronk","Eric Cole"],
-  "Stu":        ["Wyndham Clark","Max Homa","Sungjae Im","Phil Mickelson","Charl Schwartzel","Cameron Davis"],
-  "Miranda":    ["Viktor Hovland","Ludvig Aberg","Rickie Fowler","Keegan Bradley","Lucas Glover","Grayson Murray"],
-  "Brett":      ["Cameron Smith","Justin Thomas","Tom Kim","Tiger Woods","J.T. Poston","Kurt Kitayama"],
+  "Dale":    ["Angel Cabrera","Rasmus Højgaard","Nicolai Højgaard","Sergio Garcia","J.J. Spaun","Scottie Scheffler"],
+  "Hall":    ["Jackson Herrington","Matt McCarty","Jason Day","Adam Scott","Harry Hall","Ludvig Aberg"],
+  "Wilkins": ["Bubba Watson","Nick Taylor","Brian Harman","Tyrrell Hatton","Jon Rahm","Justin Thomas"],
+  "Wiggy":   ["Nico Echavarria","Shane Lowry","Rory McIlroy","Alex Noren","Viktor Hovland","Aaron Rai"],
+  "Juhli":   ["Carlos Ortiz","Dustin Johnson","Bryson DeChambeau","Russell Henley","Patrick Cantlay","Sam Stevens"],
+  "Greger":  ["Johnny Keefer","Keegan Bradley","Matt Fitzpatrick","Daniel Berger","Chris Gotterup","Gary Woodland"],
+  "Stu":     ["Max Homa","Charl Schwartzel","Jake Knapp","Xander Schauffele","Tom McKibbin","Si Woo Kim"],
+  "Brett":   ["Casey Jarvis","Sam Burns","Ryan Gerard","Cameron Young","Jordan Spieth","Sepp Straka"],
+  "Ashley":  ["Kurt Kitayama","Hideki Matsuyama","Sungjae Im","Michael Kim","Ethan Fang","Min Woo Lee"],
+  "CA":      ["Aldrich Potgieter","Max Greyserman","Tommy Fleetwood","Wyndham Clark","Brooks Koepka","Marco Penge"],
+  "DP":      ["Haotong Li","Rasmus Neergaard-Petersen","Cameron Smith","Corey Conners","Justin Rose","Harris English"],
+  "Jimmy":   ["Sami Valimaki","Ryan Fox","Patrick Reed","Akshay Bhatia","Zach Johnson","Maverick McNealy"],
+  "Miranda": ["Collin Morikawa","Mason Howell","Andrew Novak","Jacob Bridgeman","Ben Griffin","Robert MacIntyre"],
 };
 
 // ── STATE ─────────────────────────────────────────────────────
@@ -318,11 +317,16 @@ async function loadScores() {
 }
 
 // ── HELPERS ───────────────────────────────────────────────────
-function normName(n) { return n.toLowerCase().replace(/[^a-z\s]/g,'').replace(/\s+/g,' ').trim(); }
+function normName(n) {
+  return n.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // strip accents: á→a, ø→o etc
+    .replace(/[^a-z\s]/g,'').replace(/\s+/g,' ').trim();
+}
 function lookupPlayer(name) {
   if (scores[name]) return scores[name];
   const norm = normName(name);
   if (scores[norm]) return scores[norm];
+  // match on last name
   const last = norm.split(' ').pop();
   for (const k of Object.keys(scores)) {
     if (normName(k).split(' ').pop() === last) return scores[k];
@@ -409,7 +413,8 @@ function renderField() {
     .sort((a,b) => (a.sortOrder||999)-(b.sortOrder||999));
 
   if (!players.length) {
-    document.getElementById('fieldBody').innerHTML = '<tr><td colspan="8" style="text-align:center;padding:30px;color:var(--text-light)">No field data yet</td></tr>';
+    document.getElementById('fieldBody').innerHTML =
+      '<tr><td colspan="8" style="text-align:center;padding:30px;color:var(--text-light)">No field data yet</td></tr>';
     return;
   }
   let html = '';
