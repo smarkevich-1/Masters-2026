@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-09T13:35:08.077318",
+  "lastUpdated": "2026-04-09T13:37:36.949767",
   "round": 1,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -761,7 +761,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Michael Kim",
+      "name": "Andrew Novak",
       "pos": "T51",
       "sortOrder": 55,
       "scoreToPar": 0,
@@ -775,7 +775,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Tyrrell Hatton",
+      "name": "Michael Kim",
       "pos": "T51",
       "sortOrder": 56,
       "scoreToPar": 0,
@@ -789,7 +789,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Ben Griffin",
+      "name": "Tyrrell Hatton",
       "pos": "T51",
       "sortOrder": 57,
       "scoreToPar": 0,
@@ -803,9 +803,23 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Charl Schwartzel",
-      "pos": "T58",
+      "name": "Ben Griffin",
+      "pos": "T51",
       "sortOrder": 58,
+      "scoreToPar": 0,
+      "scoreDisplay": "E",
+      "r1": 2,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": 2,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Charl Schwartzel",
+      "pos": "T59",
+      "sortOrder": 59,
       "scoreToPar": 3,
       "scoreDisplay": "+3",
       "r1": 3,
@@ -818,21 +832,7 @@
     },
     {
       "name": "Viktor Hovland",
-      "pos": "T58",
-      "sortOrder": 59,
-      "scoreToPar": 0,
-      "scoreDisplay": "E",
-      "r1": 3,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": 3,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
-      "name": "Andrew Novak",
-      "pos": "T58",
+      "pos": "T59",
       "sortOrder": 60,
       "scoreToPar": 0,
       "scoreDisplay": "E",
@@ -846,7 +846,7 @@
     },
     {
       "name": "Daniel Berger",
-      "pos": "T58",
+      "pos": "T59",
       "sortOrder": 61,
       "scoreToPar": 0,
       "scoreDisplay": "E",
@@ -860,7 +860,7 @@
     },
     {
       "name": "Jon Rahm",
-      "pos": "T58",
+      "pos": "T59",
       "sortOrder": 62,
       "scoreToPar": 0,
       "scoreDisplay": "E",
