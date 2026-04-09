@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-09T13:48:25.339041",
+  "lastUpdated": "2026-04-09T13:50:11.695252",
   "round": 1,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -23,14 +23,14 @@
       "pos": "T1",
       "sortOrder": 2,
       "scoreToPar": -77,
-      "scoreDisplay": "E",
+      "scoreDisplay": "-5",
       "r1": -5,
       "r2": null,
       "r3": null,
       "r4": null,
       "totalStrokes": -5,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Kurt Kitayama",
@@ -75,7 +75,7 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Aaron Rai",
+      "name": "Justin Rose",
       "pos": "T3",
       "sortOrder": 6,
       "scoreToPar": -75,
@@ -89,7 +89,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Justin Rose",
+      "name": "Scottie Scheffler",
       "pos": "T3",
       "sortOrder": 7,
       "scoreToPar": -75,
@@ -103,23 +103,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Scottie Scheffler",
-      "pos": "T3",
-      "sortOrder": 8,
-      "scoreToPar": -75,
-      "scoreDisplay": "E",
-      "r1": -3,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": -3,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Shane Lowry",
-      "pos": "T9",
-      "sortOrder": 9,
+      "pos": "T8",
+      "sortOrder": 8,
       "scoreToPar": -74,
       "scoreDisplay": "-2",
       "r1": -2,
@@ -132,8 +118,8 @@
     },
     {
       "name": "Xander Schauffele",
-      "pos": "T9",
-      "sortOrder": 10,
+      "pos": "T8",
+      "sortOrder": 9,
       "scoreToPar": -74,
       "scoreDisplay": "-2",
       "r1": -2,
@@ -145,8 +131,22 @@
       "statusType": "STATUS_FINISH"
     },
     {
+      "name": "Aaron Rai",
+      "pos": "T8",
+      "sortOrder": 10,
+      "scoreToPar": -74,
+      "scoreDisplay": "E",
+      "r1": -2,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": -2,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
       "name": "Justin Thomas",
-      "pos": "T9",
+      "pos": "T8",
       "sortOrder": 11,
       "scoreToPar": -74,
       "scoreDisplay": "E",
@@ -160,7 +160,7 @@
     },
     {
       "name": "Gary Woodland",
-      "pos": "T9",
+      "pos": "T8",
       "sortOrder": 12,
       "scoreToPar": -74,
       "scoreDisplay": "E",
@@ -439,7 +439,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Ethan Fang",
+      "name": "Sergio Garc\u00eda",
       "pos": "T25",
       "sortOrder": 32,
       "scoreToPar": 0,
@@ -453,7 +453,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Sergio Garc\u00eda",
+      "name": "Corey Conners",
       "pos": "T25",
       "sortOrder": 33,
       "scoreToPar": 0,
@@ -467,7 +467,7 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Corey Conners",
+      "name": "Michael Brennan",
       "pos": "T25",
       "sortOrder": 34,
       "scoreToPar": 0,
@@ -481,23 +481,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Michael Brennan",
-      "pos": "T25",
-      "sortOrder": 35,
-      "scoreToPar": 0,
-      "scoreDisplay": "E",
-      "r1": null,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Jake Knapp",
-      "pos": "T36",
-      "sortOrder": 36,
+      "pos": "T35",
+      "sortOrder": 35,
       "scoreToPar": -71,
       "scoreDisplay": "+1",
       "r1": 1,
@@ -510,8 +496,8 @@
     },
     {
       "name": "Dustin Johnson",
-      "pos": "T36",
-      "sortOrder": 37,
+      "pos": "T35",
+      "sortOrder": 36,
       "scoreToPar": -71,
       "scoreDisplay": "+1",
       "r1": 1,
@@ -524,8 +510,8 @@
     },
     {
       "name": "Akshay Bhatia",
-      "pos": "T36",
-      "sortOrder": 38,
+      "pos": "T35",
+      "sortOrder": 37,
       "scoreToPar": -71,
       "scoreDisplay": "+1",
       "r1": 1,
@@ -538,8 +524,8 @@
     },
     {
       "name": "Russell Henley",
-      "pos": "T36",
-      "sortOrder": 39,
+      "pos": "T35",
+      "sortOrder": 38,
       "scoreToPar": -71,
       "scoreDisplay": "+1",
       "r1": 1,
@@ -552,7 +538,21 @@
     },
     {
       "name": "Cameron Young",
-      "pos": "T36",
+      "pos": "T35",
+      "sortOrder": 39,
+      "scoreToPar": -71,
+      "scoreDisplay": "+1",
+      "r1": 1,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": 1,
+      "missedCut": false,
+      "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Zach Johnson",
+      "pos": "T35",
       "sortOrder": 40,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -565,8 +565,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Zach Johnson",
-      "pos": "T36",
+      "name": "Nicolai H\u00f8jgaard",
+      "pos": "T35",
       "sortOrder": 41,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -579,8 +579,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Nicolai H\u00f8jgaard",
-      "pos": "T36",
+      "name": "Ethan Fang",
+      "pos": "T35",
       "sortOrder": 42,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -594,7 +594,7 @@
     },
     {
       "name": "Adam Scott",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 43,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -608,7 +608,7 @@
     },
     {
       "name": "Jacob Bridgeman",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 44,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -622,7 +622,7 @@
     },
     {
       "name": "Harry Hall",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 45,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -636,7 +636,7 @@
     },
     {
       "name": "Tyrrell Hatton",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 46,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -650,7 +650,7 @@
     },
     {
       "name": "J.J. Spaun",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 47,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -664,7 +664,7 @@
     },
     {
       "name": "Ben Griffin",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 48,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -678,7 +678,7 @@
     },
     {
       "name": "Robert MacIntyre",
-      "pos": "T36",
+      "pos": "T35",
       "sortOrder": 49,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -691,8 +691,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Harris English",
-      "pos": "T36",
+      "name": "Si Woo Kim",
+      "pos": "T35",
       "sortOrder": 50,
       "scoreToPar": -71,
       "scoreDisplay": "E",
@@ -705,23 +705,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Si Woo Kim",
-      "pos": "T36",
-      "sortOrder": 51,
-      "scoreToPar": -71,
-      "scoreDisplay": "E",
-      "r1": 1,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": 1,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
-      "pos": "T52",
-      "sortOrder": 52,
+      "pos": "T51",
+      "sortOrder": 51,
       "scoreToPar": -70,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -734,8 +720,8 @@
     },
     {
       "name": "Cameron Smith",
-      "pos": "T52",
-      "sortOrder": 53,
+      "pos": "T51",
+      "sortOrder": 52,
       "scoreToPar": -70,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -748,8 +734,8 @@
     },
     {
       "name": "Matt Fitzpatrick",
-      "pos": "T52",
-      "sortOrder": 54,
+      "pos": "T51",
+      "sortOrder": 53,
       "scoreToPar": -70,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -762,8 +748,8 @@
     },
     {
       "name": "Collin Morikawa",
-      "pos": "T52",
-      "sortOrder": 55,
+      "pos": "T51",
+      "sortOrder": 54,
       "scoreToPar": -70,
       "scoreDisplay": "+2",
       "r1": 2,
@@ -776,8 +762,8 @@
     },
     {
       "name": "Andrew Novak",
-      "pos": "T52",
-      "sortOrder": 56,
+      "pos": "T51",
+      "sortOrder": 55,
       "scoreToPar": -70,
       "scoreDisplay": "E",
       "r1": 2,
@@ -790,8 +776,8 @@
     },
     {
       "name": "Tom McKibbin",
-      "pos": "T52",
-      "sortOrder": 57,
+      "pos": "T51",
+      "sortOrder": 56,
       "scoreToPar": -70,
       "scoreDisplay": "E",
       "r1": 2,
@@ -804,8 +790,8 @@
     },
     {
       "name": "Charl Schwartzel",
-      "pos": "T58",
-      "sortOrder": 58,
+      "pos": "T57",
+      "sortOrder": 57,
       "scoreToPar": -69,
       "scoreDisplay": "+3",
       "r1": 3,
@@ -818,8 +804,8 @@
     },
     {
       "name": "Viktor Hovland",
-      "pos": "T58",
-      "sortOrder": 59,
+      "pos": "T57",
+      "sortOrder": 58,
       "scoreToPar": -69,
       "scoreDisplay": "E",
       "r1": 3,
@@ -832,8 +818,8 @@
     },
     {
       "name": "Michael Kim",
-      "pos": "T58",
-      "sortOrder": 60,
+      "pos": "T57",
+      "sortOrder": 59,
       "scoreToPar": -69,
       "scoreDisplay": "E",
       "r1": 3,
@@ -846,7 +832,21 @@
     },
     {
       "name": "Daniel Berger",
-      "pos": "T58",
+      "pos": "T57",
+      "sortOrder": 60,
+      "scoreToPar": -69,
+      "scoreDisplay": "E",
+      "r1": 3,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": 3,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Harris English",
+      "pos": "T57",
       "sortOrder": 61,
       "scoreToPar": -69,
       "scoreDisplay": "E",
@@ -1073,14 +1073,14 @@
       "pos": "T74",
       "sortOrder": 77,
       "scoreToPar": -67,
-      "scoreDisplay": "E",
+      "scoreDisplay": "+5",
       "r1": 5,
       "r2": null,
       "r3": null,
       "r4": null,
       "totalStrokes": 5,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Rasmus H\u00f8jgaard",
