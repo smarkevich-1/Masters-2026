@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-10T15:29:38.836615",
+  "lastUpdated": "2026-04-10T15:34:41.430623",
   "round": 2,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -229,9 +229,25 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Max Homa",
+      "name": "Jake Knapp",
       "pos": "T15",
       "sortOrder": 15,
+      "scoreToPar": -2,
+      "scoreDisplay": "-2",
+      "today": -3,
+      "thru": "F",
+      "r1": 73,
+      "r2": 69,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Max Homa",
+      "pos": "T15",
+      "sortOrder": 16,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": -2,
@@ -247,7 +263,7 @@
     {
       "name": "Nick Taylor",
       "pos": "T15",
-      "sortOrder": 16,
+      "sortOrder": 17,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": -1,
@@ -263,7 +279,7 @@
     {
       "name": "Cameron Young",
       "pos": "T15",
-      "sortOrder": 17,
+      "sortOrder": 18,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": -3,
@@ -278,8 +294,8 @@
     },
     {
       "name": "Michael Brennan",
-      "pos": "T18",
-      "sortOrder": 18,
+      "pos": "T19",
+      "sortOrder": 19,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
       "today": -1,
@@ -293,24 +309,8 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Jake Knapp",
-      "pos": "T18",
-      "sortOrder": 19,
-      "scoreToPar": -1,
-      "scoreDisplay": "-1",
-      "today": -2,
-      "thru": "17",
-      "r1": 73,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Xander Schauffele",
-      "pos": "T18",
+      "pos": "T19",
       "sortOrder": 20,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
@@ -326,7 +326,7 @@
     },
     {
       "name": "Collin Morikawa",
-      "pos": "T18",
+      "pos": "T19",
       "sortOrder": 21,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
@@ -342,7 +342,7 @@
     },
     {
       "name": "Russell Henley",
-      "pos": "T18",
+      "pos": "T19",
       "sortOrder": 22,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
@@ -358,7 +358,7 @@
     },
     {
       "name": "Hideki Matsuyama",
-      "pos": "T18",
+      "pos": "T19",
       "sortOrder": 23,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
@@ -1083,14 +1083,14 @@
       "scoreToPar": 7,
       "scoreDisplay": "+7",
       "today": 5,
-      "thru": "17",
+      "thru": "F",
       "r1": 74,
-      "r2": null,
+      "r2": 77,
       "r3": null,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Casey Jarvis",
@@ -1173,25 +1173,9 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Mason Howell",
-      "pos": "T69",
-      "sortOrder": 74,
-      "scoreToPar": 8,
-      "scoreDisplay": "+8",
-      "today": 3,
-      "thru": "12",
-      "r1": 77,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Fred Couples",
-      "pos": "T75",
-      "sortOrder": 75,
+      "pos": "T74",
+      "sortOrder": 74,
       "scoreToPar": 9,
       "scoreDisplay": "+9",
       "today": 3,
@@ -1206,8 +1190,8 @@
     },
     {
       "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
-      "pos": "T75",
-      "sortOrder": 76,
+      "pos": "T74",
+      "sortOrder": 75,
       "scoreToPar": 9,
       "scoreDisplay": "+9",
       "today": 7,
@@ -1219,6 +1203,22 @@
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Mason Howell",
+      "pos": "T74",
+      "sortOrder": 76,
+      "scoreToPar": 9,
+      "scoreDisplay": "+9",
+      "today": 4,
+      "thru": "13",
+      "r1": 77,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
       "name": "Mike Weir",
