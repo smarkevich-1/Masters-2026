@@ -239,7 +239,7 @@
       </div>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Player</th><th class="num">Pos</th><th class="num">Score</th><th class="num">R1</th><th class="num">R2</th><th class="num">R3</th><th class="num">R4</th><th class="num">Counts As</th><th></th></tr></thead>
+          <thead><tr><th>Player</th><th class="num">Pos</th><th class="num">Score</th><th class="num">Today</th><th class="num">Thru</th><th class="num">R1</th><th class="num">R2</th><th class="num">R3</th><th class="num">R4</th><th class="num">Total</th><th></th></tr></thead>
           <tbody id="modalBody"></tbody>
         </table>
       </div>
@@ -252,7 +252,7 @@
 //  2026 DRAFT — update each year with new picks
 // ════════════════════════════════════════════════════════════
 const DRAFT = {
-  "Dale":    ["Angel Cabrera","Rasmus Højgaard","Nicolai Højgaard","Sergio Garcia","J.J. Spaun","Scottie Scheffler"],
+  "Dale":    ["Angel Cabrera","Rasmus Hojgaard","Nicolai Hojgaard","Sergio Garcia","J.J. Spaun","Scottie Scheffler"],
   "Hall":    ["Jackson Herrington","Matt McCarty","Jason Day","Adam Scott","Harry Hall","Ludvig Aberg"],
   "Wilkins": ["Bubba Watson","Nick Taylor","Brian Harman","Tyrrell Hatton","Jon Rahm","Justin Thomas"],
   "Wiggy":   ["Nico Echavarria","Shane Lowry","Rory McIlroy","Alex Noren","Viktor Hovland","Aaron Rai"],
@@ -462,10 +462,15 @@ function openModal(team) {
     const dropBtn = cutHappened
       ? `<button class="drop-btn ${dropped?'dropped':''}" onclick="toggleDrop('${escJs(team)}','${escJs(p)}')">${dropped?'↩ Restore':'✂ Drop'}</button>`
       : '';
+    const today = data?.today !== undefined && data?.today !== null ? fmtScore(data.today) : '--';
+    const thru  = data?.thru  !== undefined && data?.thru  !== null ? data.thru : '--';
+    const todayCls = data?.today != null ? sCls(data.today) : '';
     html += `<tr class="${rowCls}">
       <td class="player-name">${esc(p)}${cutBadge}${dblBadge}</td>
       <td class="num" style="color:var(--text-light)">${data?.pos??'--'}</td>
       <td class="num ${sCls(data?.scoreToPar)}" style="font-weight:600">${data?fmtScore(data.scoreToPar):'--'}</td>
+      <td class="round-score ${todayCls}" style="font-weight:600">${today}</td>
+      <td class="round-score">${thru}</td>
       <td class="round-score">${data?.r1??'--'}</td>
       <td class="round-score">${data?.r2??'--'}</td>
       <td class="round-score">${data?.r3??'--'}</td>
