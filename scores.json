@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-10T07:42:58.099835",
+  "lastUpdated": "2026-04-10T07:48:01.253896",
   "round": 2,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -629,39 +629,39 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
+      "name": "Tyrrell Hatton",
       "pos": "T40",
       "sortOrder": 40,
       "scoreToPar": 2,
       "scoreDisplay": "+2",
-      "today": null,
-      "thru": "0",
+      "today": 0,
+      "thru": "1",
       "r1": 74,
-      "r2": 0,
+      "r2": null,
       "r3": null,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Cameron Smith",
+      "name": "J.J. Spaun",
       "pos": "T40",
       "sortOrder": 41,
       "scoreToPar": 2,
       "scoreDisplay": "+2",
-      "today": null,
-      "thru": "0",
+      "today": 0,
+      "thru": "1",
       "r1": 74,
-      "r2": 0,
+      "r2": null,
       "r3": null,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Matt Fitzpatrick",
+      "name": "Jos\u00e9 Mar\u00eda Olaz\u00e1bal",
       "pos": "T40",
       "sortOrder": 42,
       "scoreToPar": 2,
@@ -677,7 +677,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Collin Morikawa",
+      "name": "Cameron Smith",
       "pos": "T40",
       "sortOrder": 43,
       "scoreToPar": 2,
@@ -693,7 +693,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Tyrrell Hatton",
+      "name": "Matt Fitzpatrick",
       "pos": "T40",
       "sortOrder": 44,
       "scoreToPar": 2,
@@ -709,7 +709,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "J.J. Spaun",
+      "name": "Collin Morikawa",
       "pos": "T40",
       "sortOrder": 45,
       "scoreToPar": 2,
@@ -933,9 +933,25 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Daniel Berger",
+      "name": "Fred Couples",
       "pos": "T58",
       "sortOrder": 59,
+      "scoreToPar": 5,
+      "scoreDisplay": "+5",
+      "today": -1,
+      "thru": "3",
+      "r1": 78,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Daniel Berger",
+      "pos": "T58",
+      "sortOrder": 60,
       "scoreToPar": 5,
       "scoreDisplay": "+5",
       "today": 1,
@@ -949,14 +965,14 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Fred Couples",
+      "name": "Maverick McNealy",
       "pos": "T58",
-      "sortOrder": 60,
+      "sortOrder": 61,
       "scoreToPar": 5,
       "scoreDisplay": "+5",
-      "today": -1,
-      "thru": "2",
-      "r1": 78,
+      "today": 0,
+      "thru": "1",
+      "r1": 77,
       "r2": null,
       "r3": null,
       "r4": null,
@@ -966,22 +982,6 @@
     },
     {
       "name": "Rasmus Neergaard-Petersen",
-      "pos": "T58",
-      "sortOrder": 61,
-      "scoreToPar": 5,
-      "scoreDisplay": "+5",
-      "today": null,
-      "thru": "0",
-      "r1": 77,
-      "r2": 0,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_SCHEDULED"
-    },
-    {
-      "name": "Ryan Fox",
       "pos": "T58",
       "sortOrder": 62,
       "scoreToPar": 5,
@@ -997,7 +997,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Casey Jarvis",
+      "name": "Ryan Fox",
       "pos": "T58",
       "sortOrder": 63,
       "scoreToPar": 5,
@@ -1013,7 +1013,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Mason Howell",
+      "name": "Casey Jarvis",
       "pos": "T58",
       "sortOrder": 64,
       "scoreToPar": 5,
@@ -1029,7 +1029,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Alex Noren",
+      "name": "Mason Howell",
       "pos": "T58",
       "sortOrder": 65,
       "scoreToPar": 5,
@@ -1045,7 +1045,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Patrick Cantlay",
+      "name": "Alex Noren",
       "pos": "T58",
       "sortOrder": 66,
       "scoreToPar": 5,
@@ -1061,7 +1061,7 @@
       "statusType": "STATUS_SCHEDULED"
     },
     {
-      "name": "Maverick McNealy",
+      "name": "Patrick Cantlay",
       "pos": "T58",
       "sortOrder": 67,
       "scoreToPar": 5,
@@ -1093,14 +1093,14 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Danny Willett",
+      "name": "Michael Kim",
       "pos": "T68",
       "sortOrder": 69,
       "scoreToPar": 6,
       "scoreDisplay": "+6",
-      "today": 2,
-      "thru": "4",
-      "r1": 76,
+      "today": 3,
+      "thru": "5",
+      "r1": 75,
       "r2": null,
       "r3": null,
       "r4": null,
@@ -1109,14 +1109,14 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Michael Kim",
+      "name": "Danny Willett",
       "pos": "T68",
       "sortOrder": 70,
       "scoreToPar": 6,
       "scoreDisplay": "+6",
-      "today": 3,
+      "today": 2,
       "thru": "4",
-      "r1": 75,
+      "r1": 76,
       "r2": null,
       "r3": null,
       "r4": null,
@@ -1195,7 +1195,7 @@
       "scoreToPar": 7,
       "scoreDisplay": "+7",
       "today": 1,
-      "thru": "2",
+      "thru": "3",
       "r1": 78,
       "r2": null,
       "r3": null,
@@ -1285,25 +1285,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Brian Harman",
-      "pos": "T80",
-      "sortOrder": 81,
-      "scoreToPar": 8,
-      "scoreDisplay": "+8",
-      "today": 1,
-      "thru": "3",
-      "r1": 79,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Carlos Ortiz",
       "pos": "T80",
-      "sortOrder": 82,
+      "sortOrder": 81,
       "scoreToPar": 8,
       "scoreDisplay": "+8",
       "today": null,
@@ -1319,7 +1303,7 @@
     {
       "name": "Sami V\u00e4lim\u00e4ki",
       "pos": "T80",
-      "sortOrder": 83,
+      "sortOrder": 82,
       "scoreToPar": 8,
       "scoreDisplay": "+8",
       "today": null,
@@ -1335,7 +1319,7 @@
     {
       "name": "Robert MacIntyre",
       "pos": "T80",
-      "sortOrder": 84,
+      "sortOrder": 83,
       "scoreToPar": 8,
       "scoreDisplay": "+8",
       "today": null,
@@ -1350,8 +1334,8 @@
     },
     {
       "name": "Mateo Pulcini",
-      "pos": "T85",
-      "sortOrder": 85,
+      "pos": "T84",
+      "sortOrder": 84,
       "scoreToPar": 9,
       "scoreDisplay": "+9",
       "today": 0,
@@ -1365,25 +1349,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Fifa Laopakdee",
-      "pos": "T85",
-      "sortOrder": 86,
-      "scoreToPar": 9,
-      "scoreDisplay": "+9",
-      "today": 1,
-      "thru": "2",
-      "r1": 80,
-      "r2": null,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Brandon Holtz",
-      "pos": "T85",
-      "sortOrder": 87,
+      "pos": "T84",
+      "sortOrder": 85,
       "scoreToPar": 9,
       "scoreDisplay": "+9",
       "today": null,
@@ -1395,6 +1363,38 @@
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_SCHEDULED"
+    },
+    {
+      "name": "Brian Harman",
+      "pos": "T86",
+      "sortOrder": 86,
+      "scoreToPar": 10,
+      "scoreDisplay": "+10",
+      "today": 3,
+      "thru": "4",
+      "r1": 79,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Fifa Laopakdee",
+      "pos": "T86",
+      "sortOrder": 87,
+      "scoreToPar": 10,
+      "scoreDisplay": "+10",
+      "today": 2,
+      "thru": "3",
+      "r1": 80,
+      "r2": null,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
       "name": "Mike Weir",
