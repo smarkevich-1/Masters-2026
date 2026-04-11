@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-11T16:50:47.608585",
+  "lastUpdated": "2026-04-11T16:55:49.697584",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -91,14 +91,14 @@
       "scoreToPar": -8,
       "scoreDisplay": "-8",
       "today": -3,
-      "thru": "17",
+      "thru": "F",
       "r1": 70,
       "r2": 69,
-      "r3": null,
+      "r3": 69,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Scottie Scheffler",
@@ -133,25 +133,9 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Patrick Reed",
-      "pos": "T7",
-      "sortOrder": 9,
-      "scoreToPar": -7,
-      "scoreDisplay": "-7",
-      "today": -1,
-      "thru": "17",
-      "r1": 69,
-      "r2": 69,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Patrick Cantlay",
-      "pos": "T10",
-      "sortOrder": 10,
+      "pos": "T9",
+      "sortOrder": 9,
       "scoreToPar": -6,
       "scoreDisplay": "-6",
       "today": -6,
@@ -166,8 +150,8 @@
     },
     {
       "name": "Russell Henley",
-      "pos": "T10",
-      "sortOrder": 11,
+      "pos": "T9",
+      "sortOrder": 10,
       "scoreToPar": -6,
       "scoreDisplay": "-6",
       "today": -6,
@@ -175,6 +159,22 @@
       "r1": 73,
       "r2": 71,
       "r3": 66,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Patrick Reed",
+      "pos": "T9",
+      "sortOrder": 11,
+      "scoreToPar": -6,
+      "scoreDisplay": "-6",
+      "today": 0,
+      "thru": "F",
+      "r1": 69,
+      "r2": 69,
+      "r3": 72,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
