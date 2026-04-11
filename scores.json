@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-11T16:37:39.375385",
+  "lastUpdated": "2026-04-11T16:42:41.445934",
   "round": 2,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -59,14 +59,14 @@
       "scoreToPar": -9,
       "scoreDisplay": "-9",
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "r1": 70,
       "r2": 69,
-      "r3": null,
+      "r3": 68,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Jason Day",
@@ -139,7 +139,7 @@
       "scoreToPar": -7,
       "scoreDisplay": "-7",
       "today": -1,
-      "thru": "16",
+      "thru": "17",
       "r1": 69,
       "r2": 69,
       "r3": null,
@@ -315,14 +315,14 @@
       "scoreToPar": -4,
       "scoreDisplay": "-4",
       "today": 1,
-      "thru": "17",
+      "thru": "F",
       "r1": 71,
       "r2": 68,
-      "r3": null,
+      "r3": 73,
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Ludvig \u00c5berg",
