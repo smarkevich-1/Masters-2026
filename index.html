@@ -288,7 +288,7 @@ async function loadScores() {
     }
 
     currentRound = data.round || 1;
-    cutHappened = currentRound >= 3;
+    cutHappened = currentRound >= 2;
 
     const ts = new Date(data.lastUpdated);
     document.getElementById('lastUpdatedText').textContent =
