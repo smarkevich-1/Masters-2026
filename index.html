@@ -248,6 +248,27 @@
 </div>
 
 <script>
+
+// ════════════════════════════════════════════════════════════
+//  2026 DROPS — update drops after round 2
+// ════════════════════════════════════════════════════════════
+
+const DROPS = {
+  "Dale":     ["Angel Cabrera", "J.J. Spaun"],
+  "Hall":     ["Jackson Herrington", "Harry Hall"],
+  "Wilkins":  ["Bubba Watson", "Brian Harmon"],
+  "Wiggy":    ["Alex Noren", "Nico Echavarria"],
+  "Juhli":    ["Carlos Ortiz", "Bryson DeChambeau"],
+  "Greger":   ["Johnny Keefer", "Daniel Berger"],
+  "Stu":      ["Charl Schwartzel", "Tom McKibbin"],
+  "Brett":    ["Casey Jarvis", "Ryan Gerard"],
+  "Ashley":   ["Min Woo Lee", "Ethan Fang"],
+  "CA":       ["Aldrich Potgieter", "Max Greyserman"],
+  "DP":       ["Cameron Smith", "Rasmus Neergaard-Petersen"],
+  "Jimmy":    ["Sami Valimaki", "Zach Johnson"],
+  "Miranda":  ["Robert MacIntyre", "Mason Howell"],
+};
+
 // ════════════════════════════════════════════════════════════
 //  2026 DRAFT — update each year with new picks
 // ════════════════════════════════════════════════════════════
@@ -272,7 +293,9 @@ let scores = {};
 let currentRound = 1;
 let cutHappened = false;
 const DROPPED = {};
-for (const t of Object.keys(DRAFT)) DROPPED[t] = new Set();
+for (const t of Object.keys(DRAFT)) {
+  DROPPED[t] = new Set(DROPS[t] || []);
+}
 
 // ── LOAD SCORES.JSON ──────────────────────────────────────────
 async function loadScores() {
