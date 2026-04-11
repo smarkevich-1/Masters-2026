@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-11T17:41:09.032222",
+  "lastUpdated": "2026-04-11T17:46:11.241669",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -18,7 +18,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Rory McIlroy",
@@ -34,7 +34,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Sam Burns",
@@ -50,7 +50,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Shane Lowry",
@@ -66,7 +66,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Jason Day",
@@ -82,7 +82,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Justin Rose",
@@ -98,7 +98,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Scottie Scheffler",
@@ -114,7 +114,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Haotong Li",
@@ -130,7 +130,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Patrick Cantlay",
@@ -146,7 +146,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Russell Henley",
@@ -162,7 +162,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Patrick Reed",
@@ -178,7 +178,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Collin Morikawa",
@@ -194,7 +194,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Jake Knapp",
@@ -210,7 +210,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Ben Griffin",
@@ -226,7 +226,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Ryan Gerard",
@@ -242,7 +242,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Xander Schauffele",
@@ -258,7 +258,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Brooks Koepka",
@@ -274,7 +274,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Tyrrell Hatton",
@@ -290,7 +290,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Wyndham Clark",
@@ -306,7 +306,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Tommy Fleetwood",
@@ -322,7 +322,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Ludvig \u00c5berg",
@@ -338,7 +338,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Brian Campbell",
@@ -354,7 +354,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Matt Fitzpatrick",
@@ -370,7 +370,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Michael Brennan",
@@ -386,7 +386,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Nick Taylor",
@@ -402,7 +402,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Max Homa",
@@ -418,7 +418,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Chris Gotterup",
@@ -434,7 +434,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Kristoffer Reitan",
@@ -450,7 +450,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Sungjae Im",
@@ -466,7 +466,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Sepp Straka",
@@ -482,7 +482,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Jacob Bridgeman",
@@ -498,7 +498,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Hideki Matsuyama",
@@ -514,7 +514,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Brian Harman",
@@ -530,7 +530,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Jordan Spieth",
@@ -546,7 +546,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Harris English",
@@ -562,7 +562,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Sam Stevens",
@@ -578,7 +578,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Adam Scott",
@@ -594,7 +594,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Marco Penge",
@@ -610,7 +610,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Alex Noren",
@@ -626,7 +626,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Maverick McNealy",
@@ -642,7 +642,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Viktor Hovland",
@@ -658,7 +658,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Justin Thomas",
@@ -674,7 +674,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Matt McCarty",
@@ -690,7 +690,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Corey Conners",
@@ -706,7 +706,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Keegan Bradley",
@@ -722,7 +722,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Dustin Johnson",
@@ -738,7 +738,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Si Woo Kim",
@@ -754,7 +754,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Rasmus H\u00f8jgaard",
@@ -770,7 +770,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Jon Rahm",
@@ -786,7 +786,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Sergio Garc\u00eda",
@@ -802,7 +802,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Gary Woodland",
@@ -818,7 +818,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Kurt Kitayama",
@@ -834,7 +834,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Aaron Rai",
@@ -850,7 +850,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Charl Schwartzel",
@@ -866,7 +866,7 @@
       "r4": null,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_FINISH"
+      "statusType": "STATUS_SCHEDULED"
     },
     {
       "name": "Harry Hall",
