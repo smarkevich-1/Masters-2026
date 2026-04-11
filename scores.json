@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-11T09:46:36.499695",
+  "lastUpdated": "2026-04-11T09:47:27.963211",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -571,7 +571,7 @@
       "scoreToPar": 1,
       "scoreDisplay": "+1",
       "today": 0,
-      "thru": "1",
+      "thru": "2",
       "r1": 72,
       "r2": 73,
       "r3": null,
@@ -677,9 +677,25 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Sergio Garc\u00eda",
+      "name": "Corey Conners",
       "pos": "T42",
       "sortOrder": 43,
+      "scoreToPar": 3,
+      "scoreDisplay": "+3",
+      "today": -1,
+      "thru": "8",
+      "r1": 75,
+      "r2": 73,
+      "r3": null,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Sergio Garc\u00eda",
+      "pos": "T42",
+      "sortOrder": 44,
       "scoreToPar": 3,
       "scoreDisplay": "+3",
       "today": 0,
@@ -695,7 +711,7 @@
     {
       "name": "Keegan Bradley",
       "pos": "T42",
-      "sortOrder": 44,
+      "sortOrder": 45,
       "scoreToPar": 3,
       "scoreDisplay": "+3",
       "today": 1,
@@ -711,7 +727,7 @@
     {
       "name": "Sam Stevens",
       "pos": "T42",
-      "sortOrder": 45,
+      "sortOrder": 46,
       "scoreToPar": 3,
       "scoreDisplay": "+3",
       "today": 1,
@@ -726,8 +742,8 @@
     },
     {
       "name": "Alex Noren",
-      "pos": "T46",
-      "sortOrder": 46,
+      "pos": "T47",
+      "sortOrder": 47,
       "scoreToPar": 4,
       "scoreDisplay": "+4",
       "today": 0,
@@ -742,8 +758,8 @@
     },
     {
       "name": "Si Woo Kim",
-      "pos": "T46",
-      "sortOrder": 47,
+      "pos": "T47",
+      "sortOrder": 48,
       "scoreToPar": 4,
       "scoreDisplay": "+4",
       "today": 0,
@@ -757,24 +773,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Corey Conners",
-      "pos": "T46",
-      "sortOrder": 48,
-      "scoreToPar": 4,
-      "scoreDisplay": "+4",
-      "today": 0,
-      "thru": "7",
-      "r1": 75,
-      "r2": 73,
-      "r3": null,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Maverick McNealy",
-      "pos": "T46",
+      "pos": "T47",
       "sortOrder": 49,
       "scoreToPar": 4,
       "scoreDisplay": "+4",
@@ -790,7 +790,7 @@
     },
     {
       "name": "Viktor Hovland",
-      "pos": "T46",
+      "pos": "T47",
       "sortOrder": 50,
       "scoreToPar": 4,
       "scoreDisplay": "+4",
@@ -806,7 +806,7 @@
     },
     {
       "name": "Gary Woodland",
-      "pos": "T46",
+      "pos": "T47",
       "sortOrder": 51,
       "scoreToPar": 4,
       "scoreDisplay": "+4",
