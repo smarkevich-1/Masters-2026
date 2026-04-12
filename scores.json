@@ -1,8 +1,8 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T17:03:40.387294",
+  "lastUpdated": "2026-04-12T17:08:42.539048",
   "round": 4,
-  "status": "STATUS_IN_PROGRESS",
+  "status": "STATUS_FINAL",
   "players": [
     {
       "name": "Rory McIlroy",
@@ -373,23 +373,23 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Adam Scott",
+      "name": "Matt McCarty",
       "pos": "T24",
       "sortOrder": 24,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
-      "today": -2,
+      "today": -3,
       "thru": "F",
       "r1": 72,
-      "r2": 74,
-      "r3": 70,
-      "r4": 70,
+      "r2": 73,
+      "r3": 72,
+      "r4": 69,
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Sam Stevens",
+      "name": "Adam Scott",
       "pos": "T24",
       "sortOrder": 25,
       "scoreToPar": -2,
@@ -405,9 +405,25 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Brian Campbell",
+      "name": "Sam Stevens",
       "pos": "T24",
       "sortOrder": 26,
+      "scoreToPar": -2,
+      "scoreDisplay": "-2",
+      "today": -2,
+      "thru": "F",
+      "r1": 72,
+      "r2": 74,
+      "r3": 70,
+      "r4": 70,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Brian Campbell",
+      "pos": "T24",
+      "sortOrder": 27,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": 1,
@@ -423,7 +439,7 @@
     {
       "name": "Michael Brennan",
       "pos": "T24",
-      "sortOrder": 27,
+      "sortOrder": 28,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": 1,
@@ -439,7 +455,7 @@
     {
       "name": "Chris Gotterup",
       "pos": "T24",
-      "sortOrder": 28,
+      "sortOrder": 29,
       "scoreToPar": -2,
       "scoreDisplay": "-2",
       "today": 1,
@@ -448,22 +464,6 @@
       "r2": 69,
       "r3": 72,
       "r4": 73,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_FINISH"
-    },
-    {
-      "name": "Matt McCarty",
-      "pos": "T24",
-      "sortOrder": 29,
-      "scoreToPar": -2,
-      "scoreDisplay": "-2",
-      "today": -3,
-      "thru": "F",
-      "r1": 72,
-      "r2": 73,
-      "r3": 72,
-      "r4": 69,
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
