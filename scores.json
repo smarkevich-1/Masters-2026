@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T15:32:59.662623",
+  "lastUpdated": "2026-04-12T15:38:02.016408",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -59,7 +59,7 @@
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": -2,
-      "thru": "13",
+      "thru": "14",
       "r1": 70,
       "r2": 69,
       "r3": 69,
