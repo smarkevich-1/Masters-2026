@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T16:33:27.268123",
+  "lastUpdated": "2026-04-12T16:38:29.425096",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -11,7 +11,7 @@
       "scoreToPar": -13,
       "scoreDisplay": "-13",
       "today": -2,
-      "thru": "16",
+      "thru": "17",
       "r1": 67,
       "r2": 65,
       "r3": 73,
@@ -75,14 +75,14 @@
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": -2,
-      "thru": "17",
+      "thru": "F",
       "r1": 70,
       "r2": 69,
       "r3": 69,
-      "r4": null,
+      "r4": 70,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Cameron Young",
@@ -91,7 +91,7 @@
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": 1,
-      "thru": "16",
+      "thru": "17",
       "r1": 73,
       "r2": 67,
       "r3": 65,
@@ -267,14 +267,14 @@
       "scoreToPar": -5,
       "scoreDisplay": "-5",
       "today": 3,
-      "thru": "17",
+      "thru": "F",
       "r1": 69,
       "r2": 71,
       "r3": 68,
-      "r4": null,
+      "r4": 75,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Maverick McNealy",
