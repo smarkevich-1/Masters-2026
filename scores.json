@@ -1,24 +1,24 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T16:48:33.762699",
-  "round": 3,
+  "lastUpdated": "2026-04-12T16:53:35.834176",
+  "round": 4,
   "status": "STATUS_IN_PROGRESS",
   "players": [
     {
       "name": "Rory McIlroy",
       "pos": "1",
       "sortOrder": 1,
-      "scoreToPar": -13,
-      "scoreDisplay": "-13",
-      "today": -2,
-      "thru": "17",
+      "scoreToPar": -12,
+      "scoreDisplay": "-12",
+      "today": -1,
+      "thru": "F",
       "r1": 67,
       "r2": 65,
       "r3": 73,
-      "r4": null,
+      "r4": 71,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Scottie Scheffler",
@@ -91,14 +91,14 @@
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": 1,
-      "thru": "17",
+      "thru": "F",
       "r1": 73,
       "r2": 67,
       "r3": 65,
-      "r4": null,
+      "r4": 73,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Collin Morikawa",
