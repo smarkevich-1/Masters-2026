@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T16:43:31.636540",
+  "lastUpdated": "2026-04-12T16:48:33.762699",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -469,25 +469,9 @@
       "statusType": "STATUS_FINISH"
     },
     {
-      "name": "Shane Lowry",
-      "pos": "T24",
-      "sortOrder": 30,
-      "scoreToPar": -2,
-      "scoreDisplay": "-2",
-      "today": 7,
-      "thru": "17",
-      "r1": 70,
-      "r2": 69,
-      "r3": 68,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Alex Noren",
-      "pos": "T31",
-      "sortOrder": 31,
+      "pos": "T30",
+      "sortOrder": 30,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
       "today": -2,
@@ -502,8 +486,8 @@
     },
     {
       "name": "Harris English",
-      "pos": "T31",
-      "sortOrder": 32,
+      "pos": "T30",
+      "sortOrder": 31,
       "scoreToPar": -1,
       "scoreDisplay": "-1",
       "today": 0,
@@ -512,6 +496,22 @@
       "r2": 71,
       "r3": 71,
       "r4": 72,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Shane Lowry",
+      "pos": "T30",
+      "sortOrder": 32,
+      "scoreToPar": -1,
+      "scoreDisplay": "-1",
+      "today": 8,
+      "thru": "F",
+      "r1": 70,
+      "r2": 69,
+      "r3": 68,
+      "r4": 80,
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
