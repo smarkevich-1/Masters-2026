@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T16:28:25.164393",
+  "lastUpdated": "2026-04-12T16:33:27.268123",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -85,25 +85,9 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Sam Burns",
-      "pos": "T3",
-      "sortOrder": 6,
-      "scoreToPar": -10,
-      "scoreDisplay": "-10",
-      "today": 0,
-      "thru": "16",
-      "r1": 67,
-      "r2": 71,
-      "r3": 68,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Cameron Young",
       "pos": "T3",
-      "sortOrder": 7,
+      "sortOrder": 6,
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": 1,
@@ -118,8 +102,8 @@
     },
     {
       "name": "Collin Morikawa",
-      "pos": "8",
-      "sortOrder": 8,
+      "pos": "T7",
+      "sortOrder": 7,
       "scoreToPar": -9,
       "scoreDisplay": "-9",
       "today": -4,
@@ -131,6 +115,22 @@
       "totalStrokes": null,
       "missedCut": false,
       "statusType": "STATUS_FINISH"
+    },
+    {
+      "name": "Sam Burns",
+      "pos": "T7",
+      "sortOrder": 8,
+      "scoreToPar": -9,
+      "scoreDisplay": "-9",
+      "today": 1,
+      "thru": "17",
+      "r1": 67,
+      "r2": 71,
+      "r3": 68,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
     },
     {
       "name": "Max Homa",
