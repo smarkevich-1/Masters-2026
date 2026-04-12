@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T15:58:11.383619",
+  "lastUpdated": "2026-04-12T16:03:13.894105",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -75,14 +75,14 @@
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": -4,
-      "thru": "17",
+      "thru": "F",
       "r1": 73,
       "r2": 71,
       "r3": 66,
-      "r4": null,
+      "r4": 68,
       "totalStrokes": null,
       "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
+      "statusType": "STATUS_FINISH"
     },
     {
       "name": "Cameron Young",
