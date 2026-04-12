@@ -1,6 +1,6 @@
 {
   "tournament": "2026 Masters Tournament",
-  "lastUpdated": "2026-04-12T15:48:06.719856",
+  "lastUpdated": "2026-04-12T15:53:08.937507",
   "round": 3,
   "status": "STATUS_IN_PROGRESS",
   "players": [
@@ -21,9 +21,25 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Tyrrell Hatton",
-      "pos": "T2",
+      "name": "Scottie Scheffler",
+      "pos": "2",
       "sortOrder": 2,
+      "scoreToPar": -11,
+      "scoreDisplay": "-11",
+      "today": -4,
+      "thru": "16",
+      "r1": 70,
+      "r2": 74,
+      "r3": 65,
+      "r4": null,
+      "totalStrokes": null,
+      "missedCut": false,
+      "statusType": "STATUS_IN_PROGRESS"
+    },
+    {
+      "name": "Tyrrell Hatton",
+      "pos": "T3",
+      "sortOrder": 3,
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": -6,
@@ -38,8 +54,8 @@
     },
     {
       "name": "Russell Henley",
-      "pos": "T2",
-      "sortOrder": 3,
+      "pos": "T3",
+      "sortOrder": 4,
       "scoreToPar": -10,
       "scoreDisplay": "-10",
       "today": -4,
@@ -53,24 +69,8 @@
       "statusType": "STATUS_IN_PROGRESS"
     },
     {
-      "name": "Scottie Scheffler",
-      "pos": "T2",
-      "sortOrder": 4,
-      "scoreToPar": -10,
-      "scoreDisplay": "-10",
-      "today": -3,
-      "thru": "15",
-      "r1": 70,
-      "r2": 74,
-      "r3": 65,
-      "r4": null,
-      "totalStrokes": null,
-      "missedCut": false,
-      "statusType": "STATUS_IN_PROGRESS"
-    },
-    {
       "name": "Justin Rose",
-      "pos": "T2",
+      "pos": "T3",
       "sortOrder": 5,
       "scoreToPar": -10,
       "scoreDisplay": "-10",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Cameron Young",
-      "pos": "T2",
+      "pos": "T3",
       "sortOrder": 6,
       "scoreToPar": -10,
       "scoreDisplay": "-10",
@@ -603,7 +603,7 @@
       "scoreToPar": 0,
       "scoreDisplay": "E",
       "today": 7,
-      "thru": "15",
+      "thru": "16",
       "r1": 71,
       "r2": 69,
       "r3": 69,
